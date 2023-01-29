@@ -1,4 +1,4 @@
-{
+[{
     "name":"nokkia",
     "price":"5000",
     "description":"All-new redesigned Nokia mobile which is familiar and easy to use",
@@ -8,9 +8,93 @@
             "image":"producr_38458398.jpg"
         }
     ],
-    "category":"Mobile Phone",
+    "category":"Mobile Phones",
     "seller":"Amazon",
     "stock":5,
     "numOfReviews":15,
     "reviews":[]
+},
+{
+    "name":"Samsung Galaxy M04 Light Green",
+    "price":"9499",
+    "description":"Powerful MediaTek Helio P35 Octa Core 2.3GHz with Android 12,One UI Core 4.1",
+    "ratings":4.0,
+    "images":[
+        {
+            "image":"producr_38458398.jpg"
+        }
+    ],
+    "category":"Mobile Phones",
+    "seller":"Amazon",
+    "stock":10,
+    "numOfReviews":20,
+    "reviews":[]
+},
+{
+    "name":"Lava Blaze (Glass Black, 3GB RAM",
+    "price":"8699",
+    "description":"Design- Premium Glass Back",
+    "ratings":3.0,
+    "images":[
+        {
+            "image":"producr_38458398.jpg"
+        }
+    ],
+    "category":"Mobile Phones",
+    "seller":"flipkart",
+    "stock":12,
+    "numOfReviews":25,
+    "reviews":[]
+},
+{
+    "name":"Redmi A1 (Light Green, 2GB RAM 32GB ROM)",
+    "price":"6499",
+    "description":"Display: 16.56cm HD+ Scratch resistant display",
+    "ratings":3.5,
+    "images":[
+        {
+            "image":"producr_38458398.jpg"
+        }
+    ],
+    "category":"Mobile Phones",
+    "seller":"flipkart",
+    "stock":12,
+    "numOfReviews":16,
+    "reviews":[]
+},
+
+{
+    "name":"Wake Up, Life is Calling  (English, Undefined, Shenoy Preeti)",
+    "price":"136",
+    "description":"“Wake Up, Life is Calling” is a sequel to the national bestseller, “Life is What You Make it” by the popular Indian writer, Preeti Shenoy. Ankita, the protagonist of this story, overcomes her troublesome past and starts leading a normal life.",
+    "ratings":3.5,
+    "images":[
+        {
+            "image":"producr_38458398.jpg"
+        }
+    ],
+    "category":"Books",
+    "seller":"flipkart",
+    "stock":10,
+    "numOfReviews":200,
+    "reviews":[]
+},
+{
+    "name":"I Still Think About You  (English, Paperback, Vageria Arpit)",
+    "price":"105",
+    "description":"A very good book and if u have a reading habbit then start from it bcuz the content",
+    "ratings":3.5,
+    "images":[
+        {
+            "image":"producr_38458398.jpg"
+        }
+    ],
+    "category":"Books",
+    "seller":"flipkart",
+    "stock":10,
+    "numOfReviews":200,
+    "reviews":[]
 }
+ 
+
+]
