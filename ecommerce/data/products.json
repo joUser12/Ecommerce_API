@@ -1,0 +1,16 @@
+{
+    "name":"nokkia",
+    "price":"5000",
+    "description":"All-new redesigned Nokia mobile which is familiar and easy to use",
+    "ratings":4.5,
+    "images":[
+        {
+            "image":"producr_38458398.jpg"
+        }
+    ],
+    "category":"Mobile Phone",
+    "seller":"Amazon",
+    "stock":5,
+    "numOfReviews":15,
+    "reviews":[]
+}
