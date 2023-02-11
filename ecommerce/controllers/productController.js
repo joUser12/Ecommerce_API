@@ -17,7 +17,6 @@ exports.getProducts = catchAsyncError( async (req,res,next)=>{
 
 // create product - /api/v1/product/new
 exports.newProduct = catchAsyncError(async (req,res,next)=>{
-
     req.body.user = req.user.id
     const product = await Product.create(req.body);
     res.status(201).json({
@@ -31,7 +30,9 @@ exports.newProduct = catchAsyncError(async (req,res,next)=>{
 
 exports.getSingleProduct = async (req,res,next)=>{
     const product = await Product.findById(req.params.id);
-
+    res.header('Access-Control-Allow-Origin', 'example.com');
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
     // if(!product){
     //     return  res.status(404).json({
     //           success:false,
