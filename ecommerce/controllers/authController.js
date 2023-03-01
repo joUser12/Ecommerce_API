@@ -5,9 +5,9 @@ const ErrorHandler = require("../utils/errorHandler");
 const sendToken = require ('../utils/jwt');
 
 exports.registerUser = catchAsyncError (async(req,res,next)=>{
-    res.header('Access-Control-Allow-Origin', 'example.com');
-    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    // res.header('Access-Control-Allow-Origin', 'example.com');
+    // res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    // res.header('Access-Control-Allow-Headers', 'Content-Type');
     const {name ,email,password,avatar} = req.body
 
     const user = await User.create({
@@ -23,9 +23,9 @@ exports.registerUser = catchAsyncError (async(req,res,next)=>{
 
 
 exports.loginUser = catchAsyncError (async(req,res,next)=>{
-    res.header('Access-Control-Allow-Origin', 'example.com');
-    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    // res.header('Access-Control-Allow-Origin', 'example.com');
+    // res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    // res.header('Access-Control-Allow-Headers', 'Content-Type');
     const {email,password} = req.body
 
     if(!email || !password ){
