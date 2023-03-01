@@ -10,7 +10,7 @@ const sendToken = (user,statuCode,res)=>{
     }
 
     res.status(statuCode).cookie('token',token,options).json({
-        succes:true,
+        success:true,
         token,
         user
     })
