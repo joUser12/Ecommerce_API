@@ -8,8 +8,9 @@ const sendToken = (user,statuCode,res)=>{
         ),
         httpOnly :true,
     }
-
-    res.status(statuCode).cookie('token',token,options).json({
+    // res.setHeader('Authorization', 'token '+ token); 
+    // res.header('Authorization', 'token '+ token);
+    res.status(statuCode).setHeader('token',token,options).json({
         success:true,
         token,
         user
