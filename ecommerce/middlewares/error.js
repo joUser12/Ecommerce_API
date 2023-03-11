@@ -18,11 +18,13 @@ module.exports = (err,req,res,next)=>{
         if(err.name == "ValidationError"){
             message = Object.values(err.errors).map(value=>value.message)
             error = new ErrorHandler(message)
+            err.statusCode = 400
 
         }
         if(err.name == "CastError"){
             message = `Resourc not found :${err.path}`;
             error = new ErrorHandler(message)
+            err.statusCode = 400
 
         }
         res.status(err.statusCode).json({
