@@ -8,9 +8,9 @@ exports.isAuthenticationUser = catchAsyncError(async (req, res, next) => {
     // const {token } = req.cookies;
   // //   const { token } = req.authorization;
   // postman
-  const token = req.rawHeaders[1].slice(7)
+  // const token = req.rawHeaders[1].slice(7)
   // angular
-  // const token = req.rawHeaders[11].slice(7)
+  const token = req.rawHeaders[11].slice(7)
   // console.log(token,req.cookies);
 
   if (!token) {
